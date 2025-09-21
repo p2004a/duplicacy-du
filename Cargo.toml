@@ -1,0 +1,15 @@
+[package]
+name = "duplicacy-du"
+version = "0.1.0"
+edition = "2024"
+license = "Apache-2.0"
+authors = ["Marek Rusinowski"]
+repository = "https://github.com/p2004a/duplicacy-du"
+
+[dependencies]
+anyhow = "1.0.100"
+clap = { version = "4.5.47", features = ["cargo", "derive"] }
+clio = { version = "0.3.5", features = ["clap", "clap-parse"] }
+regex = "1.11.2"
+serde = { version = "1.0.225", features = ["derive"] }
+struson = { version = "0.6.0", features = ["serde"] }
